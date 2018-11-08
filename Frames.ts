@@ -4,8 +4,18 @@ export default class Frames{
     public constructor (frameNum: number){
         for(let i=0;i<frameNum;i++)
         {
-            this.history.push(new Array<string>);
-            
+            this.history.push(new Array<string>());
+
+        }
+    }
+    public next(where:number, value:string):void{
+        for(let i=0;i<history.length;i++){
+            if(i==where){
+                this.history[i].push(value);
+            }
+            else{
+                
+            }
         }
     }
 
