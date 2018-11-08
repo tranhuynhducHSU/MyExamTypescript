@@ -18,6 +18,6 @@ export default class Frames{
             }
         }
     }
-
+    //Xoa het lam lai
 
 }
